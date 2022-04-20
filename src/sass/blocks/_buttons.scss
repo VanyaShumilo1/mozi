@@ -1,0 +1,16 @@
+.button {
+    padding: 14px 32px;
+    border: 1px solid #BF0830;
+    background: transparent;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: #BF0830;
+    &-red {
+        font-weight: 400;
+        color: #fff;
+        background: #BF0830;
+    }
+}

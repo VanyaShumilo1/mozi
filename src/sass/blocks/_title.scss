@@ -1,0 +1,36 @@
+.title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 57px;
+    text-align: center;
+    color: #1A2578;
+    &-header {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 62px;
+        text-align: left;
+    }
+    &-fz36 {
+        font-size: 36px;
+    }
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #484C63;
+    margin-top: 16px;
+    &-header {
+        font-size: 22px;
+        line-height: 33px;
+        text-align: left;
+        margin-top: 32px;
+    }
+}
+
+.red {
+    font-size: inherit;
+    color: #BF0830;
+}

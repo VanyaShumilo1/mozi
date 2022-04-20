@@ -1,0 +1,31 @@
+.header {
+    padding-top: 32px;
+    height: 100vh;
+    background: url(../img/header/header.png) center center/cover no-repeat;
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav {
+        display: flex;
+        align-items: center;
+        color: #646A89;
+        &-item {
+            margin: 0 30px;
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+    &__content {
+        max-width: 570px;
+        margin-top: 129px;
+    }
+    &__buttons {
+        margin-top: 54px;
+        button {
+            margin-right: 16px;
+        }
+    }
+}

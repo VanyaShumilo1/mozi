@@ -1,0 +1,9 @@
+.trust {
+    margin-top: 100px;
+    &__images {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+}
