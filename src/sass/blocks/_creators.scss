@@ -1,0 +1,13 @@
+.creators {
+    margin-top: 108px;
+    background: #E3E7F6;
+    padding: 73px 0;
+    h2, h3 {
+        text-align: left;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
