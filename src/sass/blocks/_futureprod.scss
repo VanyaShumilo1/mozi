@@ -1,0 +1,11 @@
+.futureprod {
+    margin: 136px 0;
+    &__trigger {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        button {
+            margin-right: 20px;
+        }
+    }
+}
