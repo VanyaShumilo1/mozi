@@ -5,8 +5,26 @@
 @import 'base/mixins';
 @import "base/animations";
 
+@font-face {
+    font-family: 'Europa';
+    src: local('MuseoSansCyrl-500'),
+    url('../../fonts/Europa-Regular.woff2') format('woff2'),
+    url('../../fonts/Europa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Europa';
+    src: local('MuseoSansCyrl-700'),
+    url('../../fonts/Europa-Bold.woff2') format('woff2'),
+    url('../../fonts/Europa-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Europa', sans-serif;
     color: #484C63;
     font-size: 18px;
     margin: 0;
@@ -15,6 +33,12 @@
 
 a {
     color: inherit;
+}
+
+.line {
+    max-width: 100%;
+    height: 1px;
+    background: #C5CBE2;
 }
 
 .container {
@@ -30,6 +54,7 @@ a {
 @import "blocks/creators";
 @import "blocks/innovation";
 @import "blocks/buildteam";
+@import "blocks/footer";
 
 
 @import "blocks/media";
