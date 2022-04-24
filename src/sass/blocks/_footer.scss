@@ -1,43 +1,53 @@
 .footer {
     background: #0D123C;
-    margin-top: 24px;
     padding: 55px 0 38px 0;
+
     h2 {
         text-align: left;
         color: #fff;
     }
+
     h3 {
         color: #fff;
         margin-bottom: 30px;
     }
+
     a {
         color: #fff;
         display: block;
     }
+
     &__wrapper {
         display: flex;
         justify-content: space-between;
     }
+
     &__logo {
         max-width: 280px;
     }
+
     &__links {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         column-gap: 77px;
+
         a {
             margin-bottom: 21px;
         }
     }
+
     &__social {
         display: flex;
+
         svg {
             margin-right: 15px;
         }
     }
+
     &__bottom {
         margin-top: 30px;
     }
+
     &__text {
         color: #fff;
     }

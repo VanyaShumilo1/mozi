@@ -1,0 +1,109 @@
+.work {
+    margin-top: 148px;
+
+    &__item {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.05);
+        border-radius: 8px;
+        padding-top: 53px;
+        position: relative;
+        min-height: 318px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 62px;
+        text-align: center;
+        color: #1A2578;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        color: #484C63;
+    }
+
+    &__image {
+        position: absolute;
+        bottom: 0;
+        left: 7%;
+    }
+}
+
+.culture {
+    background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+    margin-top: 83px;
+    padding-top: 65px;
+
+    &__wrapper {
+        margin-top: 97px;
+    }
+
+    &__item {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.05);
+        border-radius: 8px;
+        padding: 40px;
+
+        &-title {
+            margin-bottom: 32px;
+            font-size: 28px;
+            line-height: 31px;
+            color: #3A3A3C;
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 16px;
+            color: #484C63;
+        }
+    }
+
+    &__description {
+        margin-top: 97px;
+        &-text {
+            font-size: 16px;
+        }
+    }
+}
+
+.whatwedo {
+    margin-top: 150px;
+    &__text {
+        font-size: 16px;
+        line-height: 27px;
+        color: #484C63;
+    }
+}
+
+.hiring {
+    margin-top: 121px;
+    background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+    padding: 150px 0;
+    &__wrapper {
+        gap: 130px
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 27px;
+        color: #484C63;
+    }
+    button {
+        margin-top: 40px;
+        position: relative;
+        &::after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 64px;
+            left: 100px;
+            width: 211px;
+            height: 58px;
+            background: url(../img/aboutPage/work/bethenext.svg);
+        }
+    }
+}
+    

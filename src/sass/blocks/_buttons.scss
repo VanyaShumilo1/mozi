@@ -10,13 +10,16 @@
     color: #BF0830;
     outline: none;
     transition: 0.5s all;
+
     &:hover {
         border-radius: 20px;
     }
+
     &-red {
         font-weight: 400;
         color: #fff;
         background: #BF0830;
+
         &:hover {
             color: #BF0830;
             background: #fff;
