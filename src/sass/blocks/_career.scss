@@ -1,3 +1,7 @@
+.career__header {
+    background: url(../img/career/Bg.png) center center/cover no-repeat;
+}
+
 .offer {
     margin-top: 125px;
     &__wrapper {
@@ -23,5 +27,107 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 27px;
+    }
+}
+
+.life {
+    margin-top: 42px;
+    padding-top: 58px;
+    background: linear-gradient(270.76deg, #E3E7F6 -55.5%, rgba(227, 231, 246, 0) 145.36%);
+    &__text {
+        max-width: 323px;
+    }
+}
+.recomend {
+    margin-top: 56px;
+
+    &__container {
+        padding: 35px 125px;
+        background: #F7F8FF;
+        box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 25px 35px rgba(22, 23, 72, 0.05);
+        border-radius: 8px;
+    }
+
+
+
+    &__rate {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__mark {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        &-text {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 62px;
+            color: #000000;
+        }
+    }
+
+    &__link {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #424B5A;
+    }
+}
+
+.join {
+    margin-top: 127px;
+
+    &__wrapper {
+        margin-top: 101px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__item {
+        padding: 35px 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 8px rgba(22, 23, 72, 0.07), 0px 17px 35px rgba(22, 23, 72, 0.05);
+        border-radius: 8px;
+    }
+
+    &__title {
+        font-size: 28px;
+        line-height: 27px;
+        color: #484C63;
+    }
+
+    &__params {
+        display: flex;
+        gap: 25px;
+        margin-top: 24px;
+        &-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+    }
+    &__trigger {
+        display: flex;
+        justify-content: center;
+        margin-top: 68px;
+    }
+}
+
+.didntfind {
+    margin-top: 156px;
+    margin-bottom: 112px;
+    &__trigger {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
     }
 }
