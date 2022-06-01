@@ -46,7 +46,7 @@
     <section class="contact">
         <div class="container">
             <div class="contact__wrapper">
-                <form action="#" class="contact__form">
+                <form action="send.php" class="contact__form" id="form" method="POST">
                     <div class="contact__form-item">
                         <label for="name">Name<span>*</span></label>
                         <input class="contact__form-input" type="text" id="name">
@@ -67,7 +67,7 @@
                         <label for="message">Message<span>*</span></label>
                         <textarea name="message" id="message"></textarea>
                     </div>
-                    <button class="button button-red">Send</button>
+                    <button type='submit' class="button button-red">Send</button>
                 </form>
                 <div class="contact__countries">
                     <div class="contact__countries-item">
@@ -257,7 +257,10 @@
             </div>
         </div>
     </footer>
+    <div id="wdh_result_form"></div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/jquery.min.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
